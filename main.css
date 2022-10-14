@@ -30,6 +30,10 @@ body{
 #justify-center{
   justify-content: center;
 }
+h2 {
+  text-align:center;
+}
+
 
 hr {
   height: 3px;
@@ -76,12 +80,17 @@ hr {
 .flex-credit-container {
   display: flex;
   background-color: rgba(141, 141, 131, 0.678);
-  padding: 2em;
+  padding: 4em;
   flex-wrap: wrap;
   border: 2px tomato;
   border-style: groove;
+  max-width:40%;
+  margin: auto;
+  align-items:center;
 }
-
+.attempt1 {
+  margin: auto;
+}
 .credit-flex-box{
   background-color: rgb(247, 247, 248);
   max-width: 10%;
@@ -90,4 +99,12 @@ hr {
   text-align: center;
   border: 1px tomato;
   border-style:dashed;
+  transition: all .2s ease-in-out
+}
+
+div.credit-flex-box:hover{
+  background-color: tomato;
+  transform: scale(1.5);
+  
+ 
 }
