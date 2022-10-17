@@ -84,27 +84,24 @@ hr {
   flex-wrap: wrap;
   border: 2px tomato;
   border-style: groove;
-  max-width:40%;
-  margin: auto;
-  align-items:center;
-}
-.attempt1 {
   margin: auto;
 }
+
 .credit-flex-box{
   background-color: rgb(247, 247, 248);
-  max-width: 10%;
   padding: 1em;
   font-size: 2em;
   text-align: center;
   border: 1px tomato;
   border-style:dashed;
-  transition: all .2s ease-in-out
+  transition: all .2s ease-in-out;
+  display:flex;
+  flex:1;
 }
 
 div.credit-flex-box:hover{
   background-color: tomato;
-  transform: scale(1.5);
+  flex:4;
   
  
 }
